@@ -68,6 +68,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px 0; /* Adds some padding above and below the button */
   }
 
+/* Index page */
+.container-md iframe {
+    display: block; /* Makes margin auto effective */
+    margin: auto; /* Center horizontally */
+  }
 
 /* Ministries page */
 .ministries {
