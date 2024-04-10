@@ -1,0 +1,90 @@
+
+* {
+    margin: 10px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgrey;
+    color: black;
+}
+
+/* Border around the forms */
+.form-container {
+    background-color: rgb(162, 90, 92); 
+    padding: 5px; /* Adjust the padding inside the container */
+    margin: 20px auto; /* Centers the container with auto margins and adds space outside it */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1200px;
+}
+
+
+form {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 25px;
+
+}
+
+label {
+    color: white;
+}
+
+
+/* Signup Form */
+.ministry_checklist_info {
+    color: white;
+    font_size: 35px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+/* Checkboxes */
+.checkbox-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    gap: 10px; /* the space between checkboxes */
+    justify-items: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding-bottom: 30px;
+  }
+
+  /* .col-12 {
+    display: flex;
+    justify-content: center; /* Centers children horizontally in the container */
+/* } */ 
+
+.ministry_checklist_info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    padding: 20px 0; /* Adds some padding above and below the button */
+  }
+
+/* Index page */
+.container-md iframe {
+    display: block; /* Makes margin auto effective */
+    margin: auto; /* Center horizontally */
+  }
+
+/* Ministries page */
+.ministries {
+    font-family: "Ruthie", cursive;
+    font-size: 70px;
+}
+
+.card-title {
+    font-family: "Ruthie", cursive;
+    font-size: 35px;
+}
+  
+
+  
+
