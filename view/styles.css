@@ -5,9 +5,65 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-color: #852747;
     color: black;
 }
+
+.body-container {
+    background-color: #852747;
+}
+
+.church-title {
+    font-size: 95px;
+    color: #F5C6A5;
+    padding-top: 20px;
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+
+/* Gather at the Creek */
+.gather {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 100px;
+}
+
+/* Style to round the edges of the logo */
+.circular {
+    border-radius: 50%; /* Adjust the radius as needed */
+    
+  }
+
+  /* Flexbox for logo and "Gather at the Creek" */
+  .flex-container {
+    display: flex;
+    width: 100%; 
+  }
+  
+  .image-container {
+    flex: 1; /* Take up one-third of the available space */
+    display: flex; /* Activate flexbox layout */
+    justify-content: flex-end; /* Align the content to the right */
+  }
+  
+  .text-container {
+    flex: 2;
+    display: flex; /* Activate flexbox layout */
+    align-items: center; /* Center items vertically */
+  }
+
+  .text-container p {
+    margin: 0; /* Remove default margin to prevent unwanted space */
+  }
+
+  /* Google Calendar */
+  .container-md {
+    padding-bottom: 50px;
+  }
 
 /* Border around the forms */
 .form-container {
@@ -84,6 +140,27 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Ruthie", cursive;
     font-size: 35px;
 }
+
+/* Font classes */
+.fondamento-regular {
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fondamento-regular-italic {
+    font-family: "Fondamento", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .ms-madi-regular {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
   
 
   

@@ -5,7 +5,7 @@
 
 <link rel= "stylesheet" href= "../view/styles.css">
 
-<h1>Coon Creek Baptist Church</h1>
+<h1 class="church-title">Coon Creek Baptist Church</h1>
 <h3 class="ministries">Ministries</h3>
 
 

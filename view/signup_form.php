@@ -5,7 +5,7 @@
 
 <link rel= "stylesheet" href= "../view/styles.css">
 
-<h1>Coon Creek Baptist Church</h1>
+<h1 class="church-title">Coon Creek Baptist Church</h1>
 <h3>Member Sign-Up</h3>
 <h4>Please complete the form to sign up for information and notification of Church events</h4>
 
