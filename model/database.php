@@ -6,11 +6,11 @@ $dsn = "mysql:host=localhost;dbname=CoonCreek";
         
         try{
         $db = new PDO($dsn, $username, $password);
-        echo('connected');
+        //echo('connected');
         }
         catch(PDOException $e)
         {
-            echo("didn't work");
+            //echo("didn't work");
         } 
 
         ?>

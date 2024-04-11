@@ -13,10 +13,24 @@ body {
     background-color: #852747;
 }
 
+/* Navigation */
+.navbar {
+    background-color: #F5C6A5;
+}
+
+.container-fluid {
+    background-color:#F5C6A5;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
 .church-title {
     font-size: 95px;
     color: #F5C6A5;
-    padding-top: 20px;
+    padding-top: 35px;
+    padding-bottom: 20px;
     font-family: "Fondamento", cursive;
     font-weight: 400;
     font-style: italic;
@@ -61,13 +75,21 @@ body {
   }
 
   /* Google Calendar */
+  .calendar-title {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 60px;
+  }
+
   .container-md {
     padding-bottom: 50px;
   }
 
 /* Border around the forms */
 .form-container {
-    background-color: rgb(162, 90, 92); 
+    background-color: #F5C6A5; 
     padding: 5px; /* Adjust the padding inside the container */
     margin: 20px auto; /* Centers the container with auto margins and adds space outside it */
     border-radius: 15px; /* Rounded corners */
@@ -84,11 +106,31 @@ form {
 }
 
 label {
-    color: white;
+    color: #A2416B;
+    font-size: 22px;;
 }
 
 
-/* Signup Form */
+/* Request Info Form */
+.request-info-title {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+
+h4 {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 40px;
+    padding-bottom: 25px;
+}
+
+
 .ministry_checklist_info {
     color: white;
     font_size: 35px;
@@ -108,10 +150,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 30px;
   }
 
-  /* .col-12 {
-    display: flex;
-    justify-content: center; /* Centers children horizontally in the container */
-/* } */ 
 
 .ministry_checklist_info {
     padding-top: 20px;
@@ -120,8 +158,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centers the button horizontally */
+    justify-content:center;
     padding: 20px 0; /* Adds some padding above and below the button */
+  }
+
+  /* Button */
+  .btn {
+    color:#852747;
+    background-color: transparent; 
+    border-color: #852747; 
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+  }
+
+  .btn:hover {
+    background-color: #781D42; /* Change the background color on hover */
+    color: white; /* Change text color on hover */
   }
 
 /* Index page */
@@ -134,6 +185,16 @@ h1, h2, h3, h4, h5, h6 {
 .ministries {
     font-family: "Ruthie", cursive;
     font-size: 70px;
+}
+
+/* Prayer Request Page */
+.prayer-request-title {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 80px;
+    padding-bottom: 25px;
 }
 
 .card-title {

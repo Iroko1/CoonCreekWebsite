@@ -25,24 +25,26 @@
 
 </head>
 
+<?php include "includes/cdnlinks.php" ?>
+<?php include "includes/nav.php" ?>
+
 <body class="body-container">
 
-    <?php include "includes/cdnlinks.php" ?>
-    <?php include "includes/nav.php" ?>
     <header>
         <h1 class="church-title">Coon Creek Baptist Church</h1>
-        
-        
     </header>
 
     <div class="flex-container">
-  <div class="image-container">
-  <img src="view/images/light-maroon.png" alt="Coon Creek Baptist Church Logo" height="400" width="400" class="circular">
-  </div>
-  <div class="text-container">
-    <p class="gather">Gather at the Creek</h2></p>
-  </div>
-</div>
+        <div class="image-container">
+            <img src="view/images/light-maroon.png" alt="Coon Creek Baptist Church Logo" height="400" width="400" class="circular">
+        </div>
+        <div class="text-container">
+            <p class="gather">Gather at the Creek</h2>
+            </p>
+        </div>
+    </div>
+
+    <h3 class="calendar-title">Calendar of Events</h3>
 
     <!-- Cannot have youtube video and calendar on same page??? -AC -->
     <div class="container-md">
@@ -59,14 +61,7 @@
     <div class="container-md">
         <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&bgcolor=%23ffffff&src=Y29vbmNyZWVrYmFwdGlzdEBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000&color=%230B8043" style="border:solid 20px #F5C6A5" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
-
-
-
-
-
-
-    <!-- I don't know if we need this or not -AC -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>

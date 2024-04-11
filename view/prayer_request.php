@@ -7,7 +7,7 @@
 <link rel= "stylesheet" href= "../view/styles.css">
 
 <h1 class="church-title">Coon Creek Baptist Church</h1>
-<h3>Prayer Request</h3>
+<h3 class="prayer-request-title">Prayer Request</h3>
 <h4>Please enter your prayer request below and it will be sent directly to the Pastor</h4>
 
 <div class="form-container">

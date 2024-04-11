@@ -6,8 +6,8 @@
 <link rel= "stylesheet" href= "../view/styles.css">
 
 <h1 class="church-title">Coon Creek Baptist Church</h1>
-<h3>Member Sign-Up</h3>
-<h4>Please complete the form to sign up for information and notification of Church events</h4>
+<h3 class="request-info-title">Request Information</h3>
+<h4>Please complete this form to request information and we will contact you shortly!</h4>
 
 <div class="form-container">
 
@@ -107,11 +107,7 @@
     <input type="text" class="form-control" name="zip" id="inputZip">
   </div>
   
-  <div class="ministry_checklist_info">
-    <h6>Please choose from the following ministries and we will contact you (check as many as you would like)<h6>
-  </div>
-  
-  
+  <!-- Check boxes -->
   <div class="checkbox-container">
   <!-- Checkbox 1 -->
   <div class="form-check">
@@ -135,12 +131,8 @@
     </label>
   </div>
  
-  <!-- Add more checkboxes here following the same structure -->
-</div>
-
-
   <div class="col-12 button-container">
-    <button type="submit" class="btn btn-primary" name="submit_form1">Sign Up</button>
+    <button type="submit" class="btn btn-primary" name="submit_form1">Request Info</button>
   </div>
 
 
