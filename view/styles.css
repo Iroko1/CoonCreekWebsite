@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: #852747;
+    background-color: #5F264A;
     color: black;
 }
 
 .body-container {
-    background-color: #852747;
+    background-color: #5F264A;
 }
 
 /* Navigation */
@@ -23,7 +23,7 @@ body {
 }
 
 .nav-link {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .church-title {
@@ -102,6 +102,7 @@ form {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 25px;
+    padding-bottom: 25px;
 
 }
 
