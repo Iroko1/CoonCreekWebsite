@@ -1,6 +1,6 @@
 
 <?php
-$dsn = "mysql:host=localhost;dbname=CoonCreek";
+$dsn = "mysql:host=localhost;dbname=cooncreekbaptistchurch";
         $username = "root";
         $password = "";
         

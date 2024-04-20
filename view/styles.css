@@ -26,6 +26,16 @@ body {
     font-size: 20px !important;
 }
 
+/* Hover color for dropdown menu */
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: maroon;
+  color: white;
+}
+
+.custom-dropdown-menu .dropdown-item {
+  transition: color 0.3s; /* Add transition effect for smooth color change */
+}
+
 .church-title {
     font-size: 95px;
     color: #F5C6A5;
@@ -74,13 +84,59 @@ body {
     margin: 0; /* Remove default margin to prevent unwanted space */
   }
 
+/* Horizontal divider under the home page title and logo */
+.hr {
+  width: 100%;
+}
+
+.hr hr {
+  border-style: double;
+  border-width: 2px;
+  border-color: white;
+  height: 5px;
+  background-color: #9EB8D9;
+  margin: 60px auto;
+  width: 70%;
+  }
+
+  /* YouTube Videos */
+  .youtube-title {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 70px;
+  }
+
+  .video-container {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* CSS to center the video container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-iframe {
+  width: 100%; /* Make the player responsive */
+  height: 100%; /* Set a fixed height for the player */
+  border: 1px solid #ccc; /* Add a border around the player */
+}
+
   /* Google Calendar */
   .calendar-title {
     font-family: "Ms Madi", cursive;
     font-weight: 400;
     font-style: normal;
     color: #F5C6A5;
-    font-size: 60px;
+    font-size: 70px;
+    padding-top: 60px;
+    padding-bottom: 25px;
   }
 
   .container-md {
@@ -118,8 +174,9 @@ label {
     font-weight: 400;
     font-style: normal;
     color: #F5C6A5;
-    font-size: 60px;
+    font-size: 80px;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 h4 {
@@ -182,10 +239,31 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto; /* Center horizontally */
   }
 
+/* About page */
+.about-title {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
 /* Ministries page */
-.ministries {
-    font-family: "Ruthie", cursive;
-    font-size: 70px;
+.ministries-title {
+    font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #F5C6A5;
+    font-size: 80px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Prayer Request Page */

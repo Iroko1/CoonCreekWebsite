@@ -5,7 +5,6 @@
 
 <link rel= "stylesheet" href= "../view/styles.css">
 
-<h1 class="church-title">Coon Creek Baptist Church</h1>
 <h3 class="request-info-title">Request Information</h3>
 <h4>Please complete this form to request information and we will contact you shortly!</h4>
 

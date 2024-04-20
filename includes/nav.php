@@ -1,4 +1,4 @@
-</php include "/includes/cdnlinks.php" ?>
+<?php include "/includes/cdnlinks.php" ?>
 
 <!-- navigation  bar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -18,9 +18,9 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About
           </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/view/history.php">History</a></li>
-            <li><a class="dropdown-item" href="/view/pastors.php">Pastors</a></li>
+          <ul class="dropdown-menu custom-dropdown-menu">
+            <li><a class="dropdown-item" href="/view/about.php">History</a></li>
+            <li><a class="dropdown-item" href="/view/about.php">Pastors</a></li>
           </ul>
         </li>
 
@@ -29,7 +29,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Get Involved
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu custom-dropdown-menu">
             <li><a class="dropdown-item" href="/view/signup_form.php">Request Info</a></li>
             <li><a class="dropdown-item" href="/view/prayer_request.php">Prayer Request</a></li>
           </ul>
@@ -39,7 +39,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Ministries
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu custom-dropdown-menu">
             <li><a class="dropdown-item" href="/view/ministries.php">TeamKID</a></li>
             <li><a class="dropdown-item" href="/view/ministries.php">Youth Group</a></li>
             <li><a class="dropdown-item" href="/view/ministries.php">TLC Women's Group</a></li>
