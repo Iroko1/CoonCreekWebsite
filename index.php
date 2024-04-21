@@ -84,7 +84,7 @@ if ($latestVideoId === null) {
 } else {
     echo "<div class='video-container'>";
     // Embed the latest YouTube video
-    $embedCode = "<iframe width='100%' height='500' style= 'border: double 15px #F5C6A5' margin: 0 auto; src='https://www.youtube.com/embed/{$latestVideoId}' frameborder='0' allowfullscreen></iframe>";
+    $embedCode = "<iframe width='100%' height='500' style= 'border: double 15px #F5C6A5; border-radius: 10px;' margin: 0 auto; src='https://www.youtube.com/embed/{$latestVideoId}' frameborder='0' allowfullscreen></iframe>";
     // Output the embedded video
     echo $embedCode;
     echo "</div>";
@@ -95,7 +95,7 @@ if ($latestVideoId === null) {
     <h3 class="calendar-title">Calendar of Events</h3>
 
     <div class="container-md">
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&bgcolor=%23ffffff&src=Y29vbmNyZWVrYmFwdGlzdEBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000&color=%230B8043" style="border:double 15px #F5C6A5" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&bgcolor=%23ffffff&src=Y29vbmNyZWVrYmFwdGlzdEBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000&color=%230B8043" style="border:double 15px #F5C6A5; border-radius: 10px;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
     
 </body>
