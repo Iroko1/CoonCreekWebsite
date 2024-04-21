@@ -49,56 +49,56 @@
     <label for="inputState" class="form-label">State</label>
     <select id="inputState" class="form-select" name="state" placeholder="state">
       <option selected>Choose...</option>
-      <option selected>Alabama</option>
-      <option selected>Alaska</option>
-      <option selected>Arizona</option>
-      <option selected>Arkansas</option>
-      <option selected>California</option>
-      <option selected>Colorado</option>
-      <option selected>Connecticut</option>
-      <option selected>Delaware</option>
-      <option selected>Florida</option>
-      <option selected>Georgia</option>
-      <option selected>Hawaii</option>
-      <option selected>Idaho</option>
-      <option selected>Illinois</option>
-      <option selected>Indiana</option>
-      <option selected>Iowa</option>
-      <option selected>Kansas</option>
-      <option selected>Kentucky</option>
-      <option selected>Louisiana</option>
-      <option selected>Maine</option>
-      <option selected>Maryland</option>
-      <option selected>Massachusetts</option>
-      <option selected>Michigan</option>
-      <option selected>Minnesota</option>
-      <option selected>Mississippi</option>
-      <option selected>Missouri</option>
-      <option selected>Montana</option>
-      <option selected>Nebraska</option>
-      <option selected>Nevada</option>
-      <option selected>New Hampshire</option>
-      <option selected>New Jersey</option>
-      <option selected>New Mexico</option>
-      <option selected>New York</option>
-      <option selected>North Carolina</option>
-      <option selected>North Dakota</option>
-      <option selected>Ohio</option>
-      <option selected>Oklahoma</option>
-      <option selected>Oregon</option>
-      <option selected>Pennsylvania</option>
-      <option selected>Rhode Island</option>
-      <option selected>South Carolina</option>
-      <option selected>South Dakota</option>
-      <option selected>Tennessee</option>
-      <option selected>Texas</option>
-      <option selected>Utah</option>
-      <option selected>Vermont</option>
-      <option selected>Virginia</option>
-      <option selected>Washington</option>
-      <option selected>West Virginia</option>
-      <option selected>Wisconsin</option>
-      <option selected>Wyoming</option>
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option>Arizona</option>
+      <option>Arkansas</option>
+      <option>California</option>
+      <option>Colorado</option>
+      <option>Connecticut</option>
+      <option>Delaware</option>
+      <option>Florida</option>
+      <option>Georgia</option>
+      <option>Hawaii</option>
+      <option>Idaho</option>
+      <option>Illinois</option>
+      <option>Indiana</option>
+      <option>Iowa</option>
+      <option>Kansas</option>
+      <option>Kentucky</option>
+      <option>Louisiana</option>
+      <option>Maine</option>
+      <option>Maryland</option>
+      <option>Massachusetts</option>
+      <option>Michigan</option>
+      <option>Minnesota</option>
+      <option>Mississippi</option>
+      <option>Missouri</option>
+      <option>Montana</option>
+      <option>Nebraska</option>
+      <option>Nevada</option>
+      <option>New Hampshire</option>
+      <option>New Jersey</option>
+      <option>New Mexico</option>
+      <option>New York</option>
+      <option>North Carolina</option>
+      <option>North Dakota</option>
+      <option>Ohio</option>
+      <option>Oklahoma</option>
+      <option>Oregon</option>
+      <option>Pennsylvania</option>
+      <option>Rhode Island</option>
+      <option>South Carolina</option>
+      <option>South Dakota</option>
+      <option>Tennessee</option>
+      <option>Texas</option>
+      <option>Utah</option>
+      <option>Vermont</option>
+      <option>Virginia</option>
+      <option>Washington</option>
+      <option>West Virginia</option>
+      <option>Wisconsin</option>
+      <option>Wyoming</option>
     </select>
   </div>
   <div class="col-md-2">
