@@ -21,6 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Ms+Madi&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome for Social Media Icons -->
+    <script src="https://kit.fontawesome.com/fcde0df59c.js" crossorigin="anonymous"></script>
+
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="./view/styles.css">
 
@@ -97,6 +100,8 @@ if ($latestVideoId === null) {
     <div class="container-md">
         <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FChicago&bgcolor=%23ffffff&src=Y29vbmNyZWVrYmFwdGlzdEBnbWFpbC5jb20&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23D50000&color=%230B8043" style="border:double 15px #F5C6A5; border-radius: 10px;" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
+
+    <?php include "../includes/footer.php" ?>
     
 </body>
 

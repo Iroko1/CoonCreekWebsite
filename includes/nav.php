@@ -49,4 +49,6 @@
     </div>
   </div>
 </nav> 
+
+<script src="https://kit.fontawesome.com/fcde0df59c.js" crossorigin="anonymous"></script>
  

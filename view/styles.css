@@ -354,6 +354,49 @@ p {
     font-size: 35px;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between; /* Items will be evenly distributed */
+  align-items: center; /* Align items vertically in the center */
+  background-color: #F5C6A5;
+  margin-bottom: 0px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+}
+
+.footer-info p {
+  margin: 0; /* Remove default margin for paragraphs */
+}
+
+.church-footer-name, .address {
+  color: darkmagenta;
+}
+
+.church-footer-name {
+  font-family: "Ms Madi", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.address {
+  padding-left: 40px;
+  padding-right: 35px;
+}
+
+a:link {
+  text-decoration: none;
+  color: darkmagenta;
+}
+
+.footer-icons {
+  font-size: 40px;
+}
+
+
 /* Font classes */
 .fondamento-regular {
     font-family: "Fondamento", cursive;

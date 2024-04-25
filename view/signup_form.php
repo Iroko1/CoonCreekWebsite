@@ -134,6 +134,8 @@
     <button type="submit" class="btn btn-primary" name="submit_form1">Request Info</button>
   </div>
 
+  <?php include "../includes/footer.php" ?>
+
 
 </form>
 
