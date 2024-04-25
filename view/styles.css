@@ -250,6 +250,65 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 25px;
 }
 
+section {
+  display: flex;
+  margin: 15px;
+  border: 5px  #F5C6A5 solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.clearFloat {
+  clear:both;
+}
+
+.content-wrap {
+  padding: 20px;
+}
+
+.historyheading, .pastor1, .pastor2 {
+  color: #F5C6A5;
+  font-family: "Ruthie", cursive;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.left, .left2 {
+  margin: 20px;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.left {
+  padding-right: 30px;
+}
+
+.left2 {
+  padding-right: 25px;
+  margin-left: 25px;
+}
+
+.right {
+  margin: 20px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.left, .left2, .right {
+  border: 4px double #F5C6A5;
+}
+
+p {
+  color: #F5C6A5;
+  text-align: center;
+  font-size: 18px;
+}
+
 /* Ministries page */
 .ministries-title {
     font-family: "Ms Madi", cursive;
