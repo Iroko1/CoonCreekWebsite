@@ -252,12 +252,11 @@ h1, h2, h3, h4, h5, h6 {
 
 section {
   display: flex;
-  margin: 15px;
-  border: 5px  #F5C6A5 solid;
+  border: 5px  #4793AF solid;
   border-radius: 10px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin: 40px;
+  margin: 50px;
 }
 
 .clearFloat {
@@ -275,6 +274,20 @@ section {
   padding-bottom: 20px;
 }
 
+.pastor-container {
+  margin-left: 200px;
+}
+
+.pastor2-container {
+  margin-right: 125px;
+  
+}
+
+.pastor-info, .pastor2-info {
+  color: #F5C6A5;
+  font-family: "Ruthie", cursive;
+}
+
 .left, .left2 {
   margin: 20px;
   padding-left: 30px;
@@ -289,6 +302,7 @@ section {
 .left2 {
   padding-right: 25px;
   margin-left: 25px;
+  margin-right: 200px;
 }
 
 .right {
