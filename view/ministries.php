@@ -14,7 +14,7 @@
         <img src="../view/images/cross1.jpg" class="card-img-top" alt="Coon Creek Logo">
         <div class="card-body">
           <h5 class="card-title">Gather at the Creek</h5>
-          <p class="card-text">Our ministries are designed for fellowship and community among certain age groups or like-minded people.  We encourage worship, self-improvement, and supporting each other through the trials and tribulations of life.</p>
+          <p class="card-text">Our ministries are designed for fellowship and community in the Body of Christ.  We encourage worship, prayer, and supporting each other through the trials and tribulations of life.</p>
         </div>
       </div>
     </div>

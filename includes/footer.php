@@ -6,6 +6,7 @@
     <div class="footer-info">
         <p class="church-footer-name">Coon Creek Baptist Church</p>
         <p class="address">1604 Coon Creek St., Collins, MO 64738 / (417)327-5259</p>
+        <i class="fa-regular fa-envelope"></i>
         <a href="ldurnell619@gmail.com">Email Us!</a>
     </div>
 

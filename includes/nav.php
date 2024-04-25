@@ -1,4 +1,3 @@
-<?php include "/includes/cdnlinks.php" ?>
 
 <!-- navigation  bar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">

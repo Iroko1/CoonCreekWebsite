@@ -5,7 +5,6 @@
 
 <h3 class="about-title">About Us</h3>
 
-<body>
 
   <div class="content-wrap">
 
