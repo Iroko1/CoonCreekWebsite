@@ -1,7 +1,9 @@
 
 <?php
 $dsn = "mysql:host=localhost;dbname=cooncreekbaptistchurch";
-        $username = "root";
+        // $username = "cooncreekbaptist"; // actual login
+        // $password = "edn8lme6wrm";
+        $username = "root"; // local login
         $password = "";
         
         try{
