@@ -1,7 +1,10 @@
 <?php
 
-include_once("..". DIRECTORY_SEPARATOR ."model". DIRECTORY_SEPARATOR ."database.php");
+include_once("..". DIRECTORY_SEPARATOR ."..". DIRECTORY_SEPARATOR ."model". DIRECTORY_SEPARATOR ."database.php");
 
+session_start([
+	'cookie_lifetime' => 3200, // 60 minutes
+]);
 function test_input($data) {
 	
 	$data = trim($data);
@@ -22,9 +25,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		
 		if(($user['username'] == $username) && 
 			($user['password'] == $password)) {
-				header("location: adminpage.php");
+				$_SESSION['adminLoggedIn'] = true;
+				header("location: ../adminpage.php");
 		}
 		else {
+			$_SESSION['adminLoggedIn'] = false;
 			echo "<script language='javascript'>";
 			echo "alert('WRONG INFORMATION');\n";
 			echo "setTimeout(() => { window.location.href = 'http://localhost/admin' }, 5000)";
