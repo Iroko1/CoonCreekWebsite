@@ -1,3 +1,4 @@
+
 <!-- navigation  bar -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
@@ -47,4 +48,6 @@
     </div>
   </div>
 </nav> 
+
+<script src="https://kit.fontawesome.com/fcde0df59c.js" crossorigin="anonymous"></script>
  
