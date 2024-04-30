@@ -1,3 +1,18 @@
+<style>
+    .btn {
+        color: #5F264A;
+        background-color: #fff;
+        border-color: #5F264A;
+    }
+
+    .btn:hover {
+        color: #fff;
+        background-color: #5F264A;
+        border-color: #5F264A;
+    }
+</style>
+
+
 <h4>Dashboard</h4>
 
 <div class="row w-75">
