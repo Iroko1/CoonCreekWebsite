@@ -10,7 +10,7 @@
 
 <div class="form-container">
 
-<form action="process_form.php" method="POST"  class="row g-3">
+<form action="../model/process_form.php" method="POST"  class="row g-3">
 
 <div class="row g-3">
   <div class="col">

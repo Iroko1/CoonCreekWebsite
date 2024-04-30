@@ -9,33 +9,30 @@
                     </a>
 
                     <div class="nav_list">
-                        <a href="#" class="nav_link active" data-tab="#tab-dashboard">
+                        <a href="./adminpage.php?action=dashboard" class="nav_link <?php if ($action == 'dashboard') { echo 'active';} ?>" data-tab="">
                             <i class="bi bi-grid"></i>
                             <span class="nav_name">Dashboard</span>
                         </a>
+                        
+                        <div class="nav_list">
+                            <a href="./adminpage.php?action=requests" class="nav_link <?php if ($action == 'requests') { echo 'active';} ?>" >
+                                <i class="bi bi-clipboard2-plus"></i>
+                                <span class="nav_name">Requests</span>
+                            </a>
+                        </div>
 
-                        <a href="#" class="nav_link" data-tab="#tab-database">
-                            <i class="bi bi-database"></i>
-                            <span class="nav_name">Database</span>
-                        </a>
-
-                        <a href="#" class="nav_link" data-tab="#tab-requests">
-                            <i class="bi bi-clipboard2-plus"></i>
-                            <span class="nav_name">Requests</span>
-                        </a>
-
-                        <a href="#" class="nav_link" data-tab="#tab-members">
+                        <a href="./adminpage.php?action=members" class="nav_link <?php if ($action == 'members') { echo 'active';} ?>" >
                             <i class="bi bi-people"></i>
                             </i> <span class="nav_name">Members</span>
                         </a>
 
 
-                        <a href="#" class="nav_link" data-tab="#tab-settings">
+                        <a href="./adminpage.php?action=settings" class="nav_link <?php if ($action == 'settings') { echo 'active';} ?>" >
                             <i class="bi bi-gear"></i>
                             </i> <span class="nav_name">Settings</span>
                         </a>
 
-                        <a href="#" class="nav_link">
+                        <a href="./adminpage.php?action=signout" class="nav_link">
                             <i class="bi bi-box-arrow-left"></i>
                             <span class="nav_name">SignOut</span>
                         </a>

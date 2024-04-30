@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		if(($user['username'] == $username) && 
 			($user['password'] == $password)) {
 				$_SESSION['adminLoggedIn'] = true;
-				header("location: ../adminpage.php");
+				header("location: ../adminpage.php?action=dashboard");
 		}
 		else {
 			$_SESSION['adminLoggedIn'] = false;

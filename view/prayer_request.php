@@ -11,7 +11,7 @@
 
 <div class="form-container">
 
-<form action="/cooncreekbaptistchurch/model/process_form.php" method="POST" class="row">
+<form action="../model/process_form.php" method="POST" class="row">
 
 <div class="row">
   <div class="col">

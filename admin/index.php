@@ -3,7 +3,7 @@
 		'cookie_lifetime' => 3200, // 60 minutes
 	]);
 	if (isset($_SESSION['adminLoggedIn']) && $_SESSION['adminLoggedIn'] == true) {
-		header("Location: adminpage.php");
+		header("Location: adminpage.php?action=dashboard");
 		die();
 	}
 ?>
