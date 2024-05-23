@@ -1,229 +1,470 @@
-
 * {
-    margin: 10px;
-    padding: 0px;
+  margin: 10px;
+  padding: 0px;
 }
 
 body {
-    background-color: #5F264A;
-    color: black;
+  background-color: #5F264A;
+  color: black;
 }
 
 .body-container {
-    background-color: #5F264A;
+  background-color: #5F264A;
 }
 
 /* Navigation */
 .navbar {
-    background-color: #F5C6A5;
+  background-color: #F5C6A5;
 }
 
 .container-fluid {
-    background-color:#F5C6A5;
+  background-color: #F5C6A5;
 }
 
 .nav-link {
-    font-size: 20px !important;
+  font-size: 20px !important;
+}
+
+/* Hover color for dropdown menu */
+.custom-dropdown-menu .dropdown-item:hover {
+  background-color: maroon;
+  color: white;
+}
+
+.custom-dropdown-menu .dropdown-item {
+  transition: color 0.3s;
+  /* Add transition effect for smooth color change */
 }
 
 .church-title {
-    font-size: 95px;
-    color: #F5C6A5;
-    padding-top: 35px;
-    padding-bottom: 20px;
-    font-family: "Fondamento", cursive;
-    font-weight: 400;
-    font-style: italic;
-    text-shadow: 2px 2px black;
+  font-size: 95px;
+  color: #F5C6A5;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: italic;
+  text-shadow: 2px 2px black;
 }
 
 /* Gather at the Creek */
 .gather {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #F5C6A5;
-    font-size: 100px;
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 100px;
 }
 
 /* Style to round the edges of the logo */
 .circular {
-    border-radius: 50%; /* Adjust the radius as needed */
-    
-  }
+  border-radius: 50%;
+  /* Adjust the radius as needed */
 
-  /* Flexbox for logo and "Gather at the Creek" */
-  .flex-container {
-    display: flex;
-    width: 100%; 
-  }
-  
-  .image-container {
-    flex: 1; /* Take up one-third of the available space */
-    display: flex; /* Activate flexbox layout */
-    justify-content: flex-end; /* Align the content to the right */
-  }
-  
-  .text-container {
-    flex: 2;
-    display: flex; /* Activate flexbox layout */
-    align-items: center; /* Center items vertically */
-  }
+}
 
-  .text-container p {
-    margin: 0; /* Remove default margin to prevent unwanted space */
-  }
+/* Flexbox for logo and "Gather at the Creek" */
+.flex-container {
+  display: flex;
+  width: 100%;
+}
 
-  /* Google Calendar */
-  .calendar-title {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #F5C6A5;
-    font-size: 60px;
-  }
+.image-container {
+  flex: 1;
+  /* Take up one-third of the available space */
+  display: flex;
+  /* Activate flexbox layout */
+  justify-content: flex-end;
+  /* Align the content to the right */
+}
 
-  .container-md {
-    padding-bottom: 50px;
-  }
+.text-container {
+  flex: 2;
+  display: flex;
+  /* Activate flexbox layout */
+  align-items: center;
+  /* Center items vertically */
+}
+
+.text-container p {
+  margin: 0;
+  /* Remove default margin to prevent unwanted space */
+}
+
+/* Horizontal divider under the home page title and logo */
+.hr {
+  width: 100%;
+}
+
+.hr hr {
+  border-style: double;
+  border-width: 2px;
+  border-color: white;
+  height: 5px;
+  background-color: #9EB8D9;
+  margin: 60px auto;
+  width: 70%;
+}
+
+/* YouTube Videos */
+.youtube-title {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 70px;
+}
+
+.video-container {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* CSS to center the video container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-iframe {
+  width: 100%;
+  /* Make the player responsive */
+  height: 100%;
+  /* Set a fixed height for the player */
+  border: 1px solid #ccc;
+  /* Add a border around the player */
+}
+
+/* Google Calendar */
+.calendar-title {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 70px;
+  padding-top: 60px;
+  padding-bottom: 25px;
+}
+
+.container-md {
+  padding-bottom: 50px;
+}
 
 /* Border around the forms */
 .form-container {
-    background-color: #F5C6A5; 
-    padding: 5px; /* Adjust the padding inside the container */
-    margin: 20px auto; /* Centers the container with auto margins and adds space outside it */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    max-width: 1200px;
+  background-color: #F5C6A5;
+  padding: 5px;
+  /* Adjust the padding inside the container */
+  margin: 20px auto;
+  /* Centers the container with auto margins and adds space outside it */
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
 }
 
 
 form {
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 25px;
+  padding-bottom: 25px;
 
 }
 
 label {
-    color: #A2416B;
-    font-size: 22px;;
+  color: #A2416B;
+  font-size: 22px;
+  ;
 }
 
 
 /* Request Info Form */
 .request-info-title {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #F5C6A5;
-    font-size: 60px;
-    padding-bottom: 25px;
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 80px;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 h4 {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #F5C6A5;
-    font-size: 40px;
-    padding-bottom: 25px;
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 40px;
+  padding-bottom: 25px;
 }
 
 
 .ministry_checklist_info {
-    color: white;
-    font-size: 35px;
+  color: white;
+  font-size: 35px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
 }
 
 /* Checkboxes */
 .checkbox-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
-    gap: 10px; /* the space between checkboxes */
-    justify-items: center; /* Center items horizontally */
-    align-items: center; /* Center items vertically */
-    padding-bottom: 30px;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Creates three columns */
+  gap: 10px;
+  /* the space between checkboxes */
+  justify-items: center;
+  /* Center items horizontally */
+  align-items: center;
+  /* Center items vertically */
+  padding-bottom: 30px;
+}
 
 
 .ministry_checklist_info {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .button-container {
-    display: flex;
-    justify-content:center;
-    padding: 20px 0; /* Adds some padding above and below the button */
-  }
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  /* Adds some padding above and below the button */
+}
 
-  /* Button */
-  .btn {
-    color:#852747;
-    background-color: transparent; 
-    border-color: #852747; 
-    transition: background-color 0.3s; /* Smooth transition for background color change */
-  }
+/* Button */
+.btn {
+  color: #852747;
+  background-color: transparent;
+  border-color: #852747;
+  transition: background-color 0.3s;
+  /* Smooth transition for background color change */
+}
 
-  .btn:hover {
-    background-color: #781D42; /* Change the background color on hover */
-    color: white; /* Change text color on hover */
-  }
+.btn:hover {
+  background-color: #781D42;
+  /* Change the background color on hover */
+  color: white;
+  /* Change text color on hover */
+}
 
 /* Index page */
 .container-md iframe {
-    display: block; /* Makes margin auto effective */
-    margin: auto; /* Center horizontally */
-  }
+  display: block;
+  /* Makes margin auto effective */
+  margin: auto;
+  /* Center horizontally */
+}
+
+/* About page */
+.about-title {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 80px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+section {
+  display: flex;
+  border: 5px #4793AF solid;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.clearFloat {
+  clear: both;
+}
+
+.content-wrap {
+  padding: 20px;
+}
+
+.historyheading,
+.pastor1,
+.pastor2 {
+  color: #F5C6A5;
+  font-family: "Ruthie", cursive;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.pastor-container {
+  margin-left: 200px;
+}
+
+.pastor2-container {
+  margin-right: 125px;
+
+}
+
+.pastor-info,
+.pastor2-info {
+  color: #F5C6A5;
+  font-family: "Ruthie", cursive;
+}
+
+.left,
+.left2 {
+  margin: 20px;
+  padding-left: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.left {
+  padding-right: 30px;
+}
+
+.left2 {
+  padding-right: 25px;
+  margin-left: 25px;
+  margin-right: 200px;
+}
+
+.right {
+  margin: 20px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+.left,
+.left2,
+.right {
+  border: 4px double #F5C6A5;
+}
+
+.historytext {
+  color: #F5C6A5;
+  text-align: center;
+  font-size: 18px;
+}
 
 /* Ministries page */
-.ministries {
-    font-family: "Ruthie", cursive;
-    font-size: 70px;
+.ministries-title {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 80px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-text {
+  color: black;
 }
 
 /* Prayer Request Page */
 .prayer-request-title {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: #F5C6A5;
-    font-size: 80px;
-    padding-bottom: 25px;
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #F5C6A5;
+  font-size: 80px;
+  padding-bottom: 25px;
 }
 
 .card-title {
-    font-family: "Ruthie", cursive;
-    font-size: 35px;
+  font-family: "Ruthie", cursive;
+  font-size: 35px;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  /* Items will be evenly distributed */
+  align-items: center;
+  /* Align items vertically in the center */
+  background-color: #F5C6A5;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.footer-info p {
+  margin: 0;
+  /* Remove default margin for paragraphs */
+}
+
+.church-footer-name,
+.address {
+  color: darkmagenta;
+}
+
+.church-footer-name {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.address {
+  padding-left: 40px;
+  padding-right: 35px;
+}
+
+a:link {
+  text-decoration: none;
+  color: darkmagenta;
+}
+
+.footer-icons {
+  font-size: 40px;
+  color: darkmagenta;
+  margin-right: 20px;
+}
+
+.fa-brands {
+  color: darkmagenta;
+  margin-right: 20px;
+}
+
 
 /* Font classes */
 .fondamento-regular {
-    font-family: "Fondamento", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .fondamento-regular-italic {
-    font-family: "Fondamento", cursive;
-    font-weight: 400;
-    font-style: italic;
-  }
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
-  .ms-madi-regular {
-    font-family: "Ms Madi", cursive;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
-  
+.fondamento-regular-italic {
+  font-family: "Fondamento", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
 
-  
-
+.ms-madi-regular {
+  font-family: "Ms Madi", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
